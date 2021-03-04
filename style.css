@@ -11,6 +11,7 @@
     width: 1280px;
     margin: 20px 200px 20px 200px;
     margin: auto;
+    overflow: hidden;
 }
 
 .clearfix::after{
@@ -77,7 +78,7 @@ nav li {
 
 /*section Free hubspot CRM*/
 
-.border-bg{
+.border-bg-hubspot{
     background: rgb(225, 184, 190);
     border: 1px solid lightgrey;
     border-radius: 5px;
@@ -96,9 +97,33 @@ nav li {
 
 .crm-illustrator img{
     width: 44%;
-  
 }
 
-
-
 /*section 3 column marketing,sales,services*/
+
+.mrg-hub{
+    margin: 30px 0 30px 0;
+
+}
+
+.col-hub-1{
+    width: 403.3px;
+    height: 400px;
+    background: lightblue;
+    float: left;
+}
+
+.col-hub-2{
+    width: 403.3px;
+    height: 400px;
+    background: lightblue;
+    float:left;
+    margin: 0 35px 0 35px;
+}
+
+.col-hub-3{
+    width: 403.3px;
+    height: 400px;
+    background: lightblue;
+    float:right;
+}
