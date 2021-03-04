@@ -16,7 +16,9 @@
 .clearfix::after{
     content: '';
     display: table;
-    clear: both; 
+    clear: both;
+    height: 0;
+    visibility: hidden;
 }
 
 /*nav-bar*/
@@ -75,25 +77,28 @@ nav li {
 
 /*section Free hubspot CRM*/
 
-.container-section{
-    margin: auto;
-    background: rgb(247, 214, 219);
-    padding: 50px;
-    border:1px solid lightgrey;
+.border-bg{
+    background: rgb(225, 184, 190);
+    border: 1px solid lightgrey;
     border-radius: 5px;
-    margin: 0 300px 30px 300px;
+    padding: 40px;
 }
 
 .crm-illustrator{
-}
-
-.crm-illustrator img{
-    width: 150px;
-    float: left;
+    width: 30%;
+    float:left
 }
 
 .popolar-feature{
-    
+    width: 70%;
+    float: left;
 }
+
+.crm-illustrator img{
+    width: 44%;
+  
+}
+
+
 
 /*section 3 column marketing,sales,services*/
