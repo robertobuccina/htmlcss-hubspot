@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*layout*/
+
+.layout{
+    width: 1280px;
+    margin: 20px 200px 20px 200px;
+    background: grey;
+    margin: auto;
+}
+
+.layout-hero{
+    
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both; 
+}
+
+/*nav-bar*/
+
+nav li {
+    display: inline-block;
+}
+
+.top-ul-left{
+    float: left;
+}
+.top-ul-right{
+    float: right;
+}
+
+.logo{
+    float:left
+}
+
+.nav-bar-bottom ul{
+    float: right;
+}
+
+/*background*/
+
+.bg-skyblue{
+    background: skyblue;
+}
+
+/*section Free hubspot CRM*/
+
+.popolar-feature{
+    
+}
