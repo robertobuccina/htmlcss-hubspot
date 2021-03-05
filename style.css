@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -5,8 +6,7 @@
     font-family: 'Avenir', Helvetica, sans-serif; 
 }
 
-
-/*layout-clearfix*/
+/*layout-clearfix-general*/
 
 .clearfix::after{
     content: '';
@@ -15,6 +15,11 @@
     height: 0;
     visibility: hidden;
 }
+
+p{
+    line-height: 30px;
+}
+
 
 /*nav-button*/
 
@@ -34,9 +39,20 @@
     border: none;
 }
 
+.button-nav-white{
+    color: rgb(245, 98, 29);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(245, 98, 29);
+}
+
+
+
+
+
 .layout{
     width: 1280px;
-    margin: 0 200px 0 200px;
+    margin: 0px 200px 0 200px;
     margin: auto;
 }
 
@@ -76,53 +92,67 @@ nav li {
 
 .layout-hero{
     margin: auto;
+    height: 550px;
+}
+
+.layout-hero > h1, p, button{
+    margin: 25px 0 0 0;
 }
 
 .bg-jumbotron{
     background-image: url(jumbotron.png);
-    background-size: content;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .container-hero{
     width: 30%;
+    padding-top: 40px;
 }
 
 .image-hubspot img{
     width: 250px;  
 }
 
-.text-hubspot p{
-    margin:25px 0 40px 0;  
+/*section-1 Free hubspot CRM*/
+
+.layout-crm{
+    margin: 30px 300px 30px 300px;
+    text-align: center;
 }
 
 
-/*section-1 Free hubspot CRM*/
+
+
+
+/*section-2 Free hubspot CRM*/
 
 .border-bg-hubspot{
     background: rgb(253, 244, 244);
     box-shadow: 1px 1px 1px 1px #d1c2c2;
     border:0.5px solid #d1c2c2;;
     border-radius: 10px;
-    padding: 40px;
+    padding: 20px 0 20px 0;
 }
 
 .crm-illustrator{
     width: 30%;
-    float:left
+    float:left;
+    text-align: center;
+    
 }
 
 .popolar-feature{
     width: 70%;
-    float: left;
+    float: right;
 }
 
 .crm-illustrator img{
     width: 150px;
 }
 
-/*section-2 column marketing,sales,services
+/*section-3 column marketing,sales,services
  n.2 column*/
 
 .mrg-hub{
@@ -131,7 +161,7 @@ nav li {
 }
 
 .col-hub-1{
-    width: 403.3px;
+    width: 30%;
     background: rgb(253, 244, 244);
     box-shadow: 1px 1px 1px 1px #d1c2c2;
     border:0.5px solid #d1c2c2;;
@@ -140,17 +170,17 @@ nav li {
 }
 
 .col-hub-2{
-    width: 403.3px;
+    width: 30%;
     background: rgb(253, 244, 244);
     box-shadow: 1px 1px 1px 1px #d1c2c2;
     border:0.5px solid #d1c2c2;;
     border-radius: 10px;
     float:left;
-    margin: 0 35px 0 35px;
+    margin: 0 5% 0 5%;
 }
 
 .col-hub-3{
-    width: 403.3px;
+    width: 30%;
     background: rgb(253, 244, 244);
     box-shadow: 1px 1px 1px 1px #d1c2c2;
     border:0.5px solid #d1c2c2;;
@@ -170,9 +200,7 @@ nav li {
     margin-bottom: 45px;
 }
 
-.row-hub-1 > h3{
-    text-align: center;
-}
+
 
 /*row-hub 2*/
 
@@ -193,16 +221,13 @@ ul{
 }
 
 .row-hub-2 button{
-    text-align: center;
     margin:30px 0 15px 0;
 }  
 
 /*grow-award-winning
 n.4 column-grow and n.2 row-grow*/
 
-.layout-grow{
-    margin: auto;
-}
+
 
 .bg-grow{
     background-image: linear-gradient(
@@ -245,10 +270,29 @@ n.4 column-grow and n.2 row-grow*/
 
 /*row-grow*/
 
+.title-grow > *{
+    text-align: center;
+    color: white;
+}
+.title-grow{
+    margin-bottom: 30px;
+}
+
+
+.row-grow-1 > *{
+    line-height: 10px;
+    margin-top: 25px;
+}
+
+.row-grow-2 > *{
+    line-height: 10px;
+    margin-top: 25px;
+}
+
+
 .row-grow-1{
     height: 149px;
     border-bottom: 2px solid white;
-    
 }
 
 .row-grow-2{
@@ -280,15 +324,14 @@ n.4 column-grow and n.2 row-grow*/
 /*section-profile*/
 
 .layout-profile{
-    width: 1280px;
-    margin: 0px 200px 50px 200px;
     margin: auto;
+    margin: 50px 200px 50px 200px;
 }
 
 .col-profile-1{
     float: left;
     margin-inline-start: 0px;
-    width: 40%;
+    width: 45%;
 }
 
 .col-profile-2{
