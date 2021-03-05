@@ -13,6 +13,10 @@
     margin: auto;
 }
 
+.layout-hero{
+    margin: auto;
+}
+
 .clearfix::after{
     content: '';
     display: table;
@@ -29,6 +33,7 @@ nav li {
 
 .top-ul-left{
     float: left;
+    margin-inline-start: 0px;
 }
 
 .top-ul-right{
@@ -65,6 +70,7 @@ nav li {
 
 .container-hero{
     width: 30%;
+    margin: auto;
     margin: 40px 0 70px 0;
 }
 
@@ -169,39 +175,81 @@ ul{
 /*grow-award-winning
 n.4 column-grow and n.2 row-grow*/
 
-/*column-grow*/
-
-.title-grow{
-    margin: 35px 0 35px 0;
+.layout-grow{
+    margin: auto;
 }
+
+.bg-grow{
+    background-image: linear-gradient(
+    45deg,#52c0d1,#00bda5);
+    padding: 35px 0 35px 0 ;
+}
+
+/*column-grow*/
 
 .col-grow-1{
     width: 25%;
-    height: 400px;
-    background: red;
+    height: 300px;
     float: left;
     border-right: 2px solid white;
+    text-align: center;
 }
 
 .col-grow-2{
     width: 25%;
-    height: 400px;
-    background: red;
+    height: 300px;
     float: left;
     border-right: 2px solid white;
+    text-align: center;
 }
 
 .col-grow-3{
     width: 25%;
-    height: 400px;
-    background: red;
+    height: 300px;
     float: left;
     border-right: 2px solid white;
+    text-align: center;
 }
 
 .col-grow-4{
     width: 25%;
-    height: 400px;
-    background: red;
+    height: 300px;
     float: left;
+    text-align: center;
+}
+
+/*row-grow*/
+
+.row-grow-1{
+    height: 149px;
+    border-bottom: 2px solid white;
+    
+}
+
+.row-grow-2{
+    height: 149px;
+}
+
+/*section-partner*/
+
+.layout-section-partner{
+    width: 1280px;
+    margin: 20px 250px 20px 250px;
+}
+
+.col-partner-1{
+    width: 30%;
+    float: left;
+    margin-inline-start: 0px;
+}
+
+.col-partner-2{
+    width: 70%;
+    height: 160px;
+    float: right;
+}
+
+.col-partner-2 img{
+    height: 10px;
+    margin: 20px 0 0px 15px;
 }
