@@ -9,7 +9,7 @@
 
 .layout{
     width: 1280px;
-    margin: 20px 200px 20px 200px;
+    margin: 0 200px 0 200px;
     margin: auto;
 }
 
@@ -182,7 +182,7 @@ n.4 column-grow and n.2 row-grow*/
 .bg-grow{
     background-image: linear-gradient(
     45deg,#52c0d1,#00bda5);
-    padding: 35px 0 35px 0 ;
+    padding: 50px 0 50px 0 ;
 }
 
 /*column-grow*/
@@ -234,22 +234,64 @@ n.4 column-grow and n.2 row-grow*/
 
 .layout-section-partner{
     width: 1280px;
-    margin: 20px 250px 20px 250px;
+    margin: 0 250px 0 250px;
 }
 
 .col-partner-1{
-    width: 30%;
     float: left;
     margin-inline-start: 0px;
+    width: 15%;
 }
 
 .col-partner-2{
-    width: 70%;
-    height: 160px;
     float: right;
+    width: 500px;
 }
 
 .col-partner-2 img{
-    height: 10px;
-    margin: 20px 0 0px 15px;
+    width: 15%;
 }
+
+/*section-profile*/
+
+.layout-profile{
+    width: 1280px;
+    margin: 0px 200px 50px 200px;
+    margin: auto;
+}
+
+.col-profile-1{
+    float: left;
+    margin-inline-start: 0px;
+    width: 40%;
+}
+
+.col-profile-2{
+    float: right;
+}
+
+.col-profile-2 img{
+    width: 300px;
+}
+
+/*bottom-list*/
+
+.bg-blu{
+   background-color:#4d6d8d; color: #fff;
+   padding-top: 30px;
+}
+
+.layout-list{
+    width: 1280px;
+    margin: 0 200px 30px 200px;
+    margin: auto;
+}
+
+.layout-list ul{
+    float: left;
+    list-style-type: none;
+    color: whi;
+}
+
+
+
