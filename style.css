@@ -11,7 +11,6 @@
     width: 1280px;
     margin: 20px 200px 20px 200px;
     margin: auto;
-    overflow: hidden;
 }
 
 .clearfix::after{
@@ -50,12 +49,14 @@ nav li {
     background: skyblue;
 }
 
+
+/*hero-content*/
+
+
 .bg-jumbotron{
     background-image: url(hubspot-img\jumbotron.png);
     background-size: contain;
 }
-
-/*dimension-size*/
 
 .height-80{
     height: 80px;
@@ -76,7 +77,7 @@ nav li {
 }
 
 
-/*section Free hubspot CRM*/
+/*section-1 Free hubspot CRM*/
 
 .border-bg-hubspot{
     background: rgb(225, 184, 190);
@@ -96,10 +97,11 @@ nav li {
 }
 
 .crm-illustrator img{
-    width: 44%;
+    width: 150px;
 }
 
-/*section 3 column marketing,sales,services*/
+/*section-2 column marketing,sales,services
+ n.2 column*/
 
 .mrg-hub{
     margin: 30px 0 30px 0;
@@ -108,14 +110,12 @@ nav li {
 
 .col-hub-1{
     width: 403.3px;
-    height: 400px;
     background: lightblue;
     float: left;
 }
 
 .col-hub-2{
     width: 403.3px;
-    height: 400px;
     background: lightblue;
     float:left;
     margin: 0 35px 0 35px;
@@ -123,7 +123,85 @@ nav li {
 
 .col-hub-3{
     width: 403.3px;
-    height: 400px;
     background: lightblue;
     float:right;
+}
+
+.row-hub-1{
+    width: 70%;
+    border-bottom: 2.5px solid grey;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.row-hub-1 p{
+    margin-bottom: 45px;
+}
+
+.row-hub-1 > h3{
+    text-align: center;
+}
+
+/*row-hub 2*/
+
+.row-hub-2{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}  
+
+.row-hub-2 h4{
+    text-align: center;
+    margin: 20px 0 15px 0;
+}  
+
+ul{
+    list-style-type: ;
+    margin-left: 50px;
+}
+
+.row-hub-2 button{
+    text-align: center;
+    margin:30px 0 15px 0;
+}  
+
+/*grow-award-winning
+n.4 column-grow and n.2 row-grow*/
+
+/*column-grow*/
+
+.title-grow{
+    margin: 35px 0 35px 0;
+}
+
+.col-grow-1{
+    width: 25%;
+    height: 400px;
+    background: red;
+    float: left;
+    border-right: 2px solid white;
+}
+
+.col-grow-2{
+    width: 25%;
+    height: 400px;
+    background: red;
+    float: left;
+    border-right: 2px solid white;
+}
+
+.col-grow-3{
+    width: 25%;
+    height: 400px;
+    background: red;
+    float: left;
+    border-right: 2px solid white;
+}
+
+.col-grow-4{
+    width: 25%;
+    height: 400px;
+    background: red;
+    float: left;
 }
