@@ -1,21 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;  
+    font-family: 'Avenir', Helvetica, sans-serif; 
 }
 
 
 /*layout-clearfix*/
-
-.layout{
-    width: 1280px;
-    margin: 0 200px 0 200px;
-    margin: auto;
-}
-
-.layout-hero{
-    margin: auto;
-}
 
 .clearfix::after{
     content: '';
@@ -23,6 +14,30 @@
     clear: both;
     height: 0;
     visibility: hidden;
+}
+
+/*nav-button*/
+
+.button-nav-orange{
+    color: white;
+    background: rgb(245, 98, 29);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button-orange{
+    color: white;
+    background: rgb(245, 98, 29);
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.layout{
+    width: 1280px;
+    margin: 0 200px 0 200px;
+    margin: auto;
 }
 
 /*nav-bar*/
@@ -48,30 +63,30 @@ nav li {
     float: right;
 }
 
-/*background*/
+/*bluesky-row*/
 
 .bg-skyblue{
-    background: skyblue;
-}
-
-
-/*hero-content*/
-
-
-.bg-jumbotron{
-    background-image: url(hubspot-img\jumbotron.png);
-    background-size: contain;
-}
-
-.height-80{
+    background: rgb(179, 243, 242);
+    border-top: 2px solid #2d3e50;
+    border-bottom: 2px solid #2d3e50;
     height: 80px;
 }
 
+/*hero-content*/
+
+.layout-hero{
+    margin: auto;
+}
+
+.bg-jumbotron{
+    background-image: url(jumbotron.png);
+    background-size: content;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
 
 .container-hero{
     width: 30%;
-    margin: auto;
-    margin: 40px 0 70px 0;
 }
 
 .image-hubspot img{
@@ -86,9 +101,10 @@ nav li {
 /*section-1 Free hubspot CRM*/
 
 .border-bg-hubspot{
-    background: rgb(225, 184, 190);
-    border: 1px solid lightgrey;
-    border-radius: 5px;
+    background: rgb(253, 244, 244);
+    box-shadow: 1px 1px 1px 1px #d1c2c2;
+    border:0.5px solid #d1c2c2;;
+    border-radius: 10px;
     padding: 40px;
 }
 
@@ -116,20 +132,29 @@ nav li {
 
 .col-hub-1{
     width: 403.3px;
-    background: lightblue;
+    background: rgb(253, 244, 244);
+    box-shadow: 1px 1px 1px 1px #d1c2c2;
+    border:0.5px solid #d1c2c2;;
+    border-radius: 10px;
     float: left;
 }
 
 .col-hub-2{
     width: 403.3px;
-    background: lightblue;
+    background: rgb(253, 244, 244);
+    box-shadow: 1px 1px 1px 1px #d1c2c2;
+    border:0.5px solid #d1c2c2;;
+    border-radius: 10px;
     float:left;
     margin: 0 35px 0 35px;
 }
 
 .col-hub-3{
     width: 403.3px;
-    background: lightblue;
+    background: rgb(253, 244, 244);
+    box-shadow: 1px 1px 1px 1px #d1c2c2;
+    border:0.5px solid #d1c2c2;;
+    border-radius: 10px;
     float:right;
 }
 
@@ -276,8 +301,12 @@ n.4 column-grow and n.2 row-grow*/
 
 /*bottom-list*/
 
+.layout-bottom-list{
+    margin: auto;
+}
+
 .bg-blu{
-   background-color:#4d6d8d; color: #fff;
+   background-color:#2d3e50; color: #fff;
    padding-top: 30px;
 }
 
@@ -290,7 +319,12 @@ n.4 column-grow and n.2 row-grow*/
 .layout-list ul{
     float: left;
     list-style-type: none;
-    color: whi;
+}
+
+.layout-list li{
+    margin-top: 12px;
+    font-size: 12px;
+    margin-right: 70px;
 }
 
 
