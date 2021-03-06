@@ -200,11 +200,6 @@ select{
     width: 150px;
 }
 
-hr{
-    display: inline-block;
-    vertical-align: middle;
-    border: 1px solid grey;
-}
 
 /*section-3 column marketing,sales,services
  n.2 column*/
