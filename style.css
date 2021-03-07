@@ -77,12 +77,16 @@ a{ text-decoration: none;
 /*nav-bar*/
 
 .nav-bar-top{
-    padding: 15px 0 15px 0;
+    height: 70px;
+    line-height: 70px;
+    vertical-align: middle;
     border-bottom: 1px solid grey;
 }
 
 .nav-bar-bottom{
-    padding: 15px 0 0 0;
+    height: 70px;
+    line-height: 70px;
+    vertical-align: middle;
 }
 
 nav li{
