@@ -15,8 +15,8 @@
     height: 0;
 }
 
-p{line-height: 25px;
-  margin-top: 20px;
+p{
+    line-height: 25px;
 }
 
 #p-partners{
@@ -29,8 +29,11 @@ p{line-height: 25px;
     margin: auto;
 }
 
-a{ text-decoration: none;
-   color: black;
+.nav-bar-top a{ 
+    text-decoration: none;
+    color: black;
+    border-left: 2px solid grey;
+    padding-left: 20px;
 }
 
 .var-list{
@@ -80,7 +83,6 @@ a{ text-decoration: none;
     height: 70px;
     line-height: 70px;
     vertical-align: middle;
-    border-bottom: 1px solid grey;
 }
 
 .nav-bar-bottom{
@@ -157,7 +159,7 @@ select{
 }
 
 .container-hero > *{
-    margin: 15px 0 0 0;
+    margin: 20px 0 0 0;
 }
 
 .image-hubspot img{
@@ -181,6 +183,10 @@ select{
     padding: 30px 0 30px 0;
 }
 
+.crm-illustrator :nth-child(6){
+    float: left;
+}
+
 .crm-illustrator{
     width: 30%;
     float:left;
@@ -189,13 +195,22 @@ select{
 
 .popolar-feature{
     width: 70%;
-    float: left;
+    float: right;
     padding-right: 150px;
+    line-height: 15px;
+    vertical-align: middle;
+}
+
+.grey-line{
+    width: 30%;
+    height: 30px;
+    background: red;
+    float: right;
 }
 
 .popolar-feature ul li{
     float: left;
-    padding: 20px 30px 0px 15px;
+    padding: 20px 30px 0 0;
     list-style: none; 
 }
 
@@ -203,6 +218,23 @@ select{
     width: 150px;
 }
 
+.box-crm{
+   height: 5px;
+   line-height: 5px;
+   vertical-align: middle;
+   padding: 30px 0 15px 0;
+}
+
+.sx{
+    width: 30%;
+    float: left;
+}                                                 
+.dx{
+    width: 70%;
+    height: 2px;
+    background:grey;
+    float: left;
+}
 
 /*section-3 column marketing,sales,services
  n.2 column*/
@@ -306,8 +338,10 @@ n.4 column-grow and n.2 row-grow*/
     width: 25%;
     height: 300px;
     float: left;
-    border-right: 2px solid white;
     text-align: center;
+}
+.col-grow-1, .col-grow-2, .col-grow-3{
+    border-right: 2px solid white;
 }
 
 /*row-grow*/
@@ -340,11 +374,11 @@ n.4 column-grow and n.2 row-grow*/
 .col-partner-1{
     width: 25%;
     float: left;
+    padding-top:40px;
 }
 
 .col-partner-2{
     float: right;
-    width:;
     padding-top: 40px;
 }
 
@@ -370,10 +404,10 @@ n.4 column-grow and n.2 row-grow*/
 }
 
 .col-profile-2 img{
-    width: 300px;
+    height: 350px;
 }
 
-.row-partner-1 p{
+.col-profile-1 p{
     padding: 20px 0 20px 0;
 }
 
